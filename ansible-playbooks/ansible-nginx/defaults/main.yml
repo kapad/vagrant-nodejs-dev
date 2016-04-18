@@ -1,3 +1,0 @@
----
-nginx:
-  connections: "1024"
