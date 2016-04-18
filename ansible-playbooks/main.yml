@@ -4,7 +4,21 @@
   sudo: true
   sudo_user: root
 
+  vars:
+    mongodb_user_admin_name: admin
+    mongodb_user_admin_password: admin
+    # mongodb_security_authorization: true
+    # mongodb_users:
+    #   - {
+    #     name: test,
+    #     password: test,
+    #     roles: readWrite,
+    #     database: test
+    # }
+
   roles:
+    - nodesource.node
+    - greendayonfire.mongodb
     # - role: ansible-nginx
     # - role: ansible-softwares
     # - role: ansible-mongodb
