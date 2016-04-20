@@ -1,15 +1,15 @@
 # from galaxy
 # - src: yatesr.timezone
-  - src: nodesource.node
-    src: greendayonfire.mongodb
+# - src: nodesource.node
+- src: greendayonfire.mongodb
 
 # from GitHub
 # - src: https://github.com/bennojoy/nginx
 
 # from GitHub, overriding the name and specifying a specific tag
-# - src: https://github.com/bennojoy/nginx
-#   version: master
-#   name: nginx_role
+- src: https://github.com/kapad/ansible-nodejs-role
+  version: origin/add_support_for_new_versions
+  name: ansible_nodejs_5x
 
 # from a webserver, where the role is packaged in a tar.gz
 # - src: https://some.webserver.example.com/files/master.tar.gz

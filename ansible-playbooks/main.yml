@@ -7,6 +7,7 @@
   vars:
     mongodb_user_admin_name: admin
     mongodb_user_admin_password: admin
+    nodejs_version: 5.10
     # mongodb_security_authorization: true
     # mongodb_users:
     #   - {
@@ -17,7 +18,7 @@
     # }
 
   roles:
-    - nodesource.node
+    - ansible_nodejs_5x
     - greendayonfire.mongodb
     # - role: ansible-nginx
     # - role: ansible-softwares
