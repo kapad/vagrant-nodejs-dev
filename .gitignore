@@ -34,3 +34,4 @@ tmp/*
 
 # sftp configuration file
 sftp-config.json
+*.retry
